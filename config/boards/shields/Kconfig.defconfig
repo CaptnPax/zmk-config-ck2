@@ -1,4 +1,4 @@
-if SHIELD_CALDERA_LEFT
+if SHIELD_CK2_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "ck2"
@@ -8,7 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_CALDERA_LEFT || SHIELD_CALDERA_RIGHT
+if SHIELD_CK2_LEFT || SHIELD_CK2_RIGHT
 
 config ZMK_SPLIT
     default y
