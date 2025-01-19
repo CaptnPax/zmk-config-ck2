@@ -1,6 +1,0 @@
-config SHIELD_CK2_LEFT
-    def_bool $(shields_list_contains,ck2_left)
-
-config SHIELD_CK2_RIGHT
-    def_bool $(shields_list_contains,ck2_right)
-
